@@ -2,16 +2,34 @@
   background-image: url(/hero.png);
   background-position: center;
   background-size: cover;
-  border-radius: 70px;
-  height: 508px;
-  padding: 50px;
+  border-radius: 80px 0;
+  height: 608px;
+  padding: 40px;
 }
 
 .hero h1 {
-  font-size: 40px;
-  line-height: 125%;
+  font-size: 50px;
+  line-height: 120%;
+}
+
+.hero p {
+  font-size: 20px;
+  line-height: 150%;
 }
 
 .hero-text {
-  width: 25%;
+  width: 38%;
+}
+
+
+@media (max-width: 768px) {
+  .hero-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 568px) {
+  .hero-h1 {
+    font-size: 30px;
+  }
 }

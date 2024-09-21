@@ -16,7 +16,7 @@ export const Footer = () => {
   return (
     <footer className='al-center d-flex'>
       <div className='container'>
-        <div className='d-flex jc-space-between'>
+        <div className='d-flex jc-space-between mobile-fd-column'>
           <div className="footer-logo-col">
             <Link to='/'><img src={Logo} alt="" /></Link>
             <p className='grey-1-color'>
@@ -30,7 +30,7 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div className="d-flex">
+          <div className="d-fle mobile-fd-column">
             <div className="footer-col">
               <h3>Pages</h3>
               <ul>

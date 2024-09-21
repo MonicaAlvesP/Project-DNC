@@ -1,10 +1,17 @@
-import { Link } from "react-router-dom"
+import { Header } from "../components/Header/Header"
+import { Banner } from "../components/Banner/Banner"
+import { Footer } from "../components/Footer/Footer"
+import { AboutText } from "../components/AboutText/AboutText"
 
 export const About = () => {
   return (
     <>
-      <h2>Esta é a página de Sobre</h2>
-      <Link to='/'>Home</Link>
+      <Header />
+      <Banner title="About" image="about.png" />
+      <div className="container">
+        <AboutText />
+      </div>
+      <Footer />
     </>
   )
 }
