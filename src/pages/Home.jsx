@@ -1,12 +1,12 @@
 import { Footer } from "../components/Footer/Footer"
 import { Header } from "../components/Header/Header"
+import { Hero } from "../components/Hero/Hero"
 
 export const Home = () => {
   return (
     <>
       <Header />
-      <h1>Home</h1>
-      <h2>Subtitle</h2>
+      <Hero />
       <Footer />
     </>
   )
