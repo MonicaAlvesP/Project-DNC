@@ -4,9 +4,9 @@
   column-gap: 10px;
   cursor: pointer;
   display: flex;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
-  padding: 25px 50px;
+  padding: 22px 40px;
   transition: background-color 0.3s ease;
 }
 
@@ -28,6 +28,13 @@
   
   .button.secondary:hover {
   background-color: #4D4D4D;
+}
+
+.button.invisible {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  padding: 0;
 }
 
 /* CLASS BUTTON OUTLINE */
